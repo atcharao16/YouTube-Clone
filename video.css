@@ -1,0 +1,208 @@
+.container{
+    margin-top : 60px;
+    display : flex;
+    justify-content: space-between;
+    padding : 20px;
+}
+
+.video-section{
+    flex : 2;
+    margin-right : 20px;
+}
+
+#video-player{
+    width : 100%;
+    height : 500px;
+}
+
+.video-details{
+    margin-top : 10px;
+}
+
+.video-details h1{
+    font-size : 1.5rem;
+    font-weight : 400;
+}
+.video-details p{
+    color : #606060;
+}
+
+.channel-info-bar{
+    display : flex;
+    align-items : center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin : 10px auto;
+    color : #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.channel-details{
+    display : flex;
+    align-items: center;
+}
+
+.channel-logo {
+    width : 40px;
+    height : 40px;
+    border-radius : 50%;
+    margin-right : 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    object-fit: contain;
+}
+
+.channel-name{
+    font-size : 16px;
+    font-weight: bold;
+}
+
+.subscribers{
+    color : #aaa;
+    font-size : 14px;
+}
+
+.subscribe-button {
+    background-color: #cc0000;
+    color : #ffff;
+    border : none;
+    border-radius : 25px;
+    padding : 10px 25px;
+    cursor : pointer;
+    margin-left : 10px;
+    font-weight : 400;
+}
+
+.subscribe-button:active{
+    background-color: #b30000;
+}
+
+.actions {
+    display : flex;
+    align-items: center;
+}
+
+.action-button{
+    display : flex;
+    align-items: center;
+    background : none;
+    border : none;
+    cursor : pointer;
+    margin-right : 10px;
+    font-size : 14px;
+    box-shadow : 0 2px 4px rgba(0,0,0,0.3);
+    padding : 10px 20px;
+    border-radius: 40px;
+    gap : 10px;
+}
+
+.action-button:hover{
+    color : #ddd;
+}
+
+.action-button .icon{
+    margin-right : 5px;
+    width : 25px;
+    height : 25px;      
+}
+
+.more-options {
+    color : black;
+    cursor : pointer;
+    width : 25px ;
+    height : 25px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-description{
+    margin-top : 10px;
+    font-size : 1em;
+    line-height : 1.5;
+}
+
+.comment-section{
+    margin : 20px auto;
+}
+
+.comment {
+    display : flex;
+    margin-bottom : 15px;
+    padding : 10px;
+}
+
+.comment .dp{
+    width : 30px;
+    height : 30px;
+    border-radius : 50%;
+    margin-right : 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.comment-content {
+    font-size : 0.9rem;
+    line-height : 1.5;
+}
+
+
+
+.comment-header .user-name{
+    font-size : 14px;
+}
+
+.comment-header .time{
+    color : #171515;
+    font-size : 12px;
+    margin-left : 8px;
+}
+
+.comment-description p{
+    font-size : 0.8rem;
+    padding-right : 2px;
+    color : #575555;
+}
+
+.comment-reactions img{
+    margin-top : 10px;
+}
+
+.comment-icon , span{
+    width : 20px;
+    height : 20px; 
+    margin-left : 10px;
+    cursor : pointer;
+}
+
+
+
+
+.recommendation-section{
+    flex : 1
+}
+
+.recommendation-section h3{
+    font-size: 1.2rem;
+    margin-bottom : 5px;
+    font-weight : 400;
+}
+
+.recommended-video{
+    display : flex;
+    margin-bottom : 10px;
+}
+
+.recommended-video img{
+    width : 180px;
+    height : 120px;
+    margin-right : 10px;
+}
+
+.recommended-details h4{
+    font-size : 1rem;
+    margin : 0;
+}
+.recommended-details p{
+    font-size : 0.6rem;
+    color : #606060;
+    margin : 5px 0px;
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone | Video</title>
+
+    <link rel = "stylesheet" href = "./style.css">
+    <link rel = "stylesheet" href = "./navbar.css">
+    <link rel = "stylesheet" href = "./video.css">
+
+</head> 
+<body>
+    <nav class = "navbar">
+        <div class = "toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src = "assets/profiles/logo.PNG" class = "logo" alt = "logo"/>
+
+        <div class = "search-box">
+            <input type = "text" class = "search-bar" placeholder = "Search..."/>
+            <button class = "search-btn">
+                <img src = "assets/icons/search.PNG">
+            </button>
+        </div>
+
+        <div class = "user-options">
+            <img src = "assets/icons/video.PNG" alt = ""  class = "icon">
+            <img src = "assets/icons/grid.PNG" alt = "" class = "icon">
+            <img src = "assets/icons/bell.PNG"  alt = "" class = "icon">
+            <div class = "user-dp">
+                <img src = "assets/profiles/profile-pic.jpg" alt ="">
+            </div>
+        </div>
+    </nav>
+
+    <div class = "container">
+        <div class = "video-section">
+            <iframe id = "video-player" width = "100%" height = "500%" src = "https://www.youtube.com/embed/nuRKzG0Pkjg?si=4Qe6VFuHZt79n9Sq"
+            title = "Backend Development" frameborder = "0"
+            allow = "accelerometer; autoplay; clipboard-write; encrypted=media; gyroscrope; pircture-in-picture"
+            allowfullscreen
+            ></iframe>
+
+            <div class = "video-details">
+                <h1>Backend Development 2025| ReactJs | NodeJS | ExpressJs | MongoDB</h1>
+                <div class = "channel-info-bar">
+                    <div class = "channel-details">
+                        <img class = "channel-logo" src = "assets/profiles/gfg.png" alt = "gfg">
+                        <div>
+                            <p class = "channel-name">GeeksforGeeks</p>
+                            <p class = "subscribers">1.15m subscribers</p>
+                        </div>
+                        <button class = "subscribe-button">Subscribe</button>
+                    </div>
+                    
+                    <div class = "actions">
+                        <button class = "action-button">
+                            <img src = "assets/icons/likeIcon.png" class = "icon"/> 12.7k
+                        </button>
+                        <button class = "action-button">
+                            <img src = "assets/icons/dislikeIcon.png" class = "icon"/> 535
+                        </button>
+                        <button class = "action-button">
+                            <img src = "assets/icons/shareIcon.png" class = "icon"/> 789
+                        </button>
+                        <!-- <button class = "action-button">
+                            <img src = "img/icons/download.jpg" calss = "icon"/> 789
+                        </button> -->
+                        <button class = "action-button">
+                            <span class = "more-options">•••</span>
+                        </button>                       
+
+                    </div>
+                </div>
+
+                <p class = "video-views">23,070 views  &nbsp; 10 days ago</p>
+                <p class = "video-description">
+                    In this video, we break down the complete Backend Development roadmap, perfect for beginners, CS students, and aspiring SDEs. 
+                    Learn how to build solid foundations and become job-ready in 2025.
+                </p>
+
+            </div>
+
+            <div class = "comments-section">
+                <div class = "comment">
+                    <img src = "assets/profiles/emp2.webp" class = "dp" alt =  "emp1">
+                    <div class = "comment-content">
+                        <div class = "comment-header">
+                            <span class = "user-name">@prakash2006</span>
+                            <span class = "time">2 days ago</span>
+                        </div>
+                        <div class = "comment-description">
+                            <p> &nbsp; &nbsp; &nbsp;  Can you make video on DSA roadmap</p>
+                        </div>
+                        <div class = "comment-reactions">
+                            <img class = "comment-icon" src = "assets/icons/likeIcon.png"> 23
+                            <img class = "comment-icon" src = "assets/icons/dislikeIcon.png">3
+                            <span>Reply</span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "comment">
+                    <img src = "assets/profiles/emp1.webp" class = "dp" alt =  "emp1">
+                    <div class = "comment-content">
+                        <div class = "comment-header">
+                            <span class = "user-name">@marygrace</span>
+                            <span class = "time">4 days ago</span>
+                        </div>
+                        <div class = "comment-description">
+                            <p>&nbsp; &nbsp; &nbsp; Thank you for making this video..❤️</p>
+                        </div>
+                        <div class = "comment-reactions">
+                            <img class = "comment-icon" src = "assets/icons/likeIcon.png"> 23
+                            <img class = "comment-icon" src = "assets/icons/dislikeIcon.png">3
+                            <span>Reply</span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "comment">
+                    <img src = "assets/profiles/emp2.webp" class = "dp" alt =  "emp1">
+                    <div class = "comment-content">
+                        <div class = "comment-header">
+                            <span class = "user-name">@krishna</span>
+                            <span class = "time">4 days ago</span>
+                        </div>
+                        <div class = "comment-description">
+                            <p> &nbsp; &nbsp; &nbsp; Please make video on how to get a job..</p>
+                        </div>
+                        <div class = "comment-reactions">
+                            <img class = "comment-icon" src = "assets/icons/likeIcon.png"> 2
+                            <img class = "comment-icon" src = "assets/icons/dislikeIcon.png">0
+                            <span>Reply</span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "comment">
+                    <img src = "assets/profiles/emp2.webp" class = "dp" alt =  "emp1">
+                    <div class = "comment-content">
+                        <div class = "comment-header">
+                            <span class = "user-name">@prakash2006</span>
+                            <span class = "time">2 days ago</span>
+                        </div>
+                        <div class = "comment-description">
+                            <p> &nbsp; &nbsp; &nbsp;  Can you make video on DSA roadmap</p>
+                        </div>
+                        <div class = "comment-reactions">
+                            <img class = "comment-icon" src = "assets/icons/likeIcon.png"> 23
+                            <img class = "comment-icon" src = "assets/icons/dislikeIcon.png">3
+                            <span>Reply</span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "comment">
+                    <img src = "assets/profiles/emp1.webp" class = "dp" alt =  "emp1">
+                    <div class = "comment-content">
+                        <div class = "comment-header">
+                            <span class = "user-name">@marygrace</span>
+                            <span class = "time">4 days ago</span>
+                        </div>
+                        <div class = "comment-description">
+                            <p>&nbsp; &nbsp; &nbsp; Thank you for making this video..❤️</p>
+                        </div>
+                        <div class = "comment-reactions">
+                            <img class = "comment-icon" src = "assets/icons/likeIcon.png"> 23
+                            <img class = "comment-icon" src = "assets/icons/dislikeIcon.png">3
+                            <span>Reply</span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "comment">
+                    <img src = "assets/profiles/emp2.webp" class = "dp" alt =  "emp1">
+                    <div class = "comment-content">
+                        <div class = "comment-header">
+                            <span class = "user-name">@krishna</span>
+                            <span class = "time">4 days ago</span>
+                        </div>
+                        <div class = "comment-description">
+                            <p> &nbsp; &nbsp; &nbsp; please make full free course on data sstructures and backend delvelopment in Hindi.</p>
+                        </div>
+                        <div class = "comment-reactions">
+                            <img class = "comment-icon" src = "assets/icons/likeIcon.png"> 2
+                            <img class = "comment-icon" src = "assets/icons/dislikeIcon.png">0
+                            <span>Reply</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Side bar (Recomendation Section ) -->
+        <div class = "recommendation-section">
+            <h3>Recommended</h3>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/1.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Complete Data Structures and Algorithms in one shot</h4>
+                    <P>OurCSE</P>
+                    <P>23k views &nbsp; 8 days ago</P>
+                </div>
+            </div>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/2.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Selenium course |Java | one shot</h4>
+                    <P>testing_master</P>
+                    <P>29.8k views &nbsp; 8 months ago</P>
+                </div>
+            </div>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/3.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Selenium course |Java | one shot</h4>
+                    <P>testing_master</P>
+                    <P>29.8k views &nbsp; 8 months ago</P>
+                </div>
+            </div>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/4.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Selenium course |Java | one shot</h4>
+                    <P>testing_master</P>
+                    <P>29.8k views &nbsp; 8 months ago</P>
+                </div>
+            </div>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/5.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Selenium course |Java | one shot</h4>
+                    <P>softwaretesting</P>
+                    <P>29.8k views &nbsp; 8 months ago</P>
+                </div>
+            </div>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/6.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Selenium course |Java | one shot</h4>
+                    <P>testing_master</P>
+                    <P>29.8k views &nbsp; 3 months ago</P>
+                </div>
+            </div>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/1.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Selenium course |Java | one shot</h4>
+                    <P>softwaretesting</P>
+                    <P>29.8k views &nbsp; 8 months ago</P>
+                </div>
+            </div>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/4.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Jenkins full course 2025| Python | Oneshot</h4>
+                    <P>testing_master</P>
+                    <P>29.8k views &nbsp; 8 months ago</P>
+                </div>
+            </div>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/2.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Selenium full course 2025|Java | one shot</h4>
+                    <P>testing_master</P>
+                    <P>29.8k views &nbsp; 8 months ago</P>
+                </div>
+            </div>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/6.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Selenium course |Java | one shot</h4>
+                    <P>testing_master</P>
+                    <P>29.8k views &nbsp; 8 months ago</P>
+                </div>
+            </div>
+            <div class = "recommended-video">
+                <img src = "assets/thumbnails/3.webp" alt="video thumbnail"/>
+                <div class = "recommendded-details">
+                    <h4>Selenium course |Java | one shot</h4>
+                    <P>softwaretesting</P>
+                    <P>29.8k views &nbsp; 8 months ago</P>
+                </div>
+            </div>
+         </div>
+    </div>
+</body>
+</html>

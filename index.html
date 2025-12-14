@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel = "stylesheet" href = "./style.css">
+    <link rel = "stylesheet" href = "./navbar.css">
+    <link rel = "stylesheet" href = "./sidebar.css">
+    <link rel = "stylesheet" href = "./filters.css">
+    <link rel = "stylesheet" href = "./homepage.css">
+</head>
+<body>
+    <nav class = "navbar">
+        <div class = "toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src = "assets/profiles/logo.PNG" class = "logo" alt = "logo"/>
+
+        <div class = "search-box">
+            <input type = "text" class = "search-bar" placeholder = "Search..."/>
+            <button class = "search-btn">
+                <img src = "assets/icons/search.PNG">
+            </button>
+        </div>
+
+        <div class = "user-options">
+            <img src = "assets/icons/video.PNG" alt = "" class = "icon">
+            <img src = "assets/icons/grid.PNG" alt = "" class = "icon">
+            <img src = "assets/icons/bell.PNG"  alt = "" class = "icon">
+            <div class = "user-dp">
+                <img src = "assets/profiles/profile-pic.jpg" alt ="">
+            </div>
+        </div>
+    </nav>
+
+    <div class = "side-bar">
+        <a href = "#" class = "links active"> <img src = "./assets/icons/home.PNG"/> home</a>
+        <a href = "#" class = "links"> <img src = "./assets/icons/explore.PNG"/> Explore</a>
+        <a href = "#" class = "links"> <img src = "./assets/icons/subscription.PNG"/>Subscription</a>
+        <hr class = "separator">
+        <a href = "#" class = "links"> <img src = "./assets/icons/library.PNG"/>Library</a>
+        <a href = "#" class = "links"> <img src = "./assets/icons/history.PNG"/>History</a>
+        <a href = "#" class = "links"> <img src = "./assets/icons/video.PNG"/>Video</a>
+        <a href = "#" class = "links"> <img src = "./assets/icons/liked video.PNG"/>Liked videos</a>
+        <a href = "#" class = "links"> <img src = "./assets/icons/watch-later.PNG"/>Watch Later</a>
+        <a href = "#" class = "links"> <img src = "./assets/icons/show more.PNG"/>Show more</a>
+    
+
+        
+    </div>
+
+    <div class = "filters">
+        <button class = "filter-option active">All</button>
+        <button class = "filter-option">Shorts</button>
+        <button class = "filter-option">Trending</button>
+        <button class = "filter-option">HTML</button>
+        <button class = "filter-option">CSS</button>
+        <button class = "filter-option">BiggBoss</button>
+        <button class = "filter-option">Java</button>
+        <button class = "filter-option">Software Engineering</button>
+        <button class = "filter-option">GitHub</button>
+        <button class = "filter-option">Web Development</button>
+        <button class = "filter-option">Atrificial Intelligence</button>
+    </div>
+
+    <div class = "video-container" id = "video-container">
+        <!-- Hide loading spinner when videos are loaded -->
+        <div id = "loading-spinner" class = "spinner">
+            <div class = "circle"></div>
+        </div>
+         
+    </div>
+
+
+   <script src = "app.js"></script>
+</body> 
+</html>
