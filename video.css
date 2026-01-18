@@ -69,6 +69,7 @@
     padding : 10px 25px;
     cursor : pointer;
     margin-left : 10px;
+    margin-right : 5px;
     font-weight : 400;
 }
 
@@ -78,7 +79,7 @@
 
 .actions {
     display : flex;
-    align-items: center;
+   
 }
 
 .action-button{
@@ -121,10 +122,17 @@
     line-height : 1.5;
 }
 
-.comment-section{
+.comments-section{
     margin : 20px auto;
 }
 
+.comments{
+        width : 100%;
+        height : 30px;
+        padding-left : 10px;
+        font-size : 1em;
+        font-weight: 400;
+    }
 .comment {
     display : flex;
     margin-bottom : 15px;
@@ -167,8 +175,9 @@
 }
 
 .comment-icon , span{
-    width : 20px;
-    height : 20px; 
+    width : 13px;
+    height : 12px; 
+    padding-left :3px;
     margin-left : 10px;
     cursor : pointer;
 }
@@ -197,12 +206,94 @@
     margin-right : 10px;
 }
 
-.recommended-details h4{
+.recommendded-details h4{
     font-size : 1rem;
     margin : 0;
 }
-.recommended-details p{
+.recommendded-details p{
     font-size : 0.6rem;
     color : #606060;
     margin : 5px 0px;
+}
+
+@media (max-width : 1100px) and (min-width : 1080px) {
+    .recommendded-details h4{
+       font-size : 12px;
+    }
+}
+
+@media (max-width : 1080px) and (min-width :  900px){
+    .recommendded-details{
+        display : none;
+    }
+    .recommended-video img{
+        width : 100%;
+    }
+}
+
+@media (max-width : 900px) {
+    .container{
+        flex-direction: column;
+        padding : 10px;
+    }
+    .comments{
+        border : 2px solid #dbdbdb;
+        border-radius: 20px;
+        padding-top : 4px;
+    }
+    .comments-section .comment{
+        display : none;
+    }
+    
+    .video-section{
+        flex : none;
+        width : 100%;
+        margin-top : 0px;
+    }
+    .video-description{
+        display :none;
+    }
+    .recommendation-section{
+        flex : none;
+        width : 100%;
+    }
+
+    #video-player{
+        width : 100%;
+        height : auto;
+        aspect-ratio: 16/9;
+    }
+
+    .recommendation-section h3{
+        margin-top : 10px;
+    }
+
+    .recommendded-details h4{
+        margin-bottom: 10px;
+    }
+    .actions{
+        display : flex;
+        align-items: center;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        gap : 10px;
+        scrollbar-width: none;
+    }
+    .action-button{
+        flex-shrink: 0;
+        font-size : 12px;
+        border-radius: 30px;
+        width : 100px;
+    }
+    .action-button .icon{
+        width : 20px;
+        height : 20px; 
+    }
+
+    .subscribe-button{
+        border-radius : 25px;
+        padding : 1px 15x;
+        margin-right : 5px;
+    }
 }

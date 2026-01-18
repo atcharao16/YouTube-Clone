@@ -91,8 +91,10 @@ function loadVideos(){
             <img src = "${video.channelIcon}"  class = "channel-icon" alt = "">
             <div class = "info">
                 <h4 class = "title">${video.title}</h4>
-                <p class = "channel-name">${video.channelName}</p>
-                <p class = "views-time">${video.views} • ${video.time} </p>
+                <span class = 'details'>
+                    <p class = "channel-name">${video.channelName}</p>
+                    <p class = "views-time">${video.views} • ${video.time} </p>
+                </span>
             </div>
         </div>
         `

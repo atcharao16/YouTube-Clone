@@ -6,7 +6,7 @@
     <title>Youtube Clone | Video</title>
 
     <link rel = "stylesheet" href = "./style.css">
-    <link rel = "stylesheet" href = "./navbar.css">
+    <link rel = 'stylesheet' href = "./navbar.css">
     <link rel = "stylesheet" href = "./video.css">
 
 </head> 
@@ -29,7 +29,7 @@
         <div class = "user-options">
             <img src = "assets/icons/video.PNG" alt = ""  class = "icon">
             <img src = "assets/icons/grid.PNG" alt = "" class = "icon">
-            <img src = "assets/icons/bell.PNG"  alt = "" class = "icon">
+            <img src = "assets/icons/bell.PNG"  alt = "" class = "bell-icon">
             <div class = "user-dp">
                 <img src = "assets/profiles/profile-pic.jpg" alt ="">
             </div>
@@ -38,11 +38,14 @@
 
     <div class = "container">
         <div class = "video-section">
-            <iframe id = "video-player" width = "100%" height = "500%" src = "https://www.youtube.com/embed/nuRKzG0Pkjg?si=4Qe6VFuHZt79n9Sq"
+            <div>
+                <iframe id = "video-player" width = "100%" height = "500%" src = "https://www.youtube.com/embed/nuRKzG0Pkjg?si=4Qe6VFuHZt79n9Sq"
             title = "Backend Development" frameborder = "0"
             allow = "accelerometer; autoplay; clipboard-write; encrypted=media; gyroscrope; pircture-in-picture"
             allowfullscreen
             ></iframe>
+            </div>
+            
 
             <div class = "video-details">
                 <h1>Backend Development 2025| ReactJs | NodeJS | ExpressJs | MongoDB</h1>
@@ -85,6 +88,7 @@
             </div>
 
             <div class = "comments-section">
+                <div class = 'comments'>Comments</div>
                 <div class = "comment">
                     <img src = "assets/profiles/emp2.webp" class = "dp" alt =  "emp1">
                     <div class = "comment-content">
